@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Motech Digital</title>
+<meta name="description" content="Get a free quote from Motech Digital. Chat on WhatsApp or send us a message.">
+<meta name="theme-color" content="#8b5cf6">
+<meta property="og:title" content="Contact | Motech Digital">
+<meta property="og:description" content="Get a free quote from Motech Digital. Chat on WhatsApp or send us a message.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/generated/preview-motech.svg">
+<link rel="icon" href="img/originals/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+<style id="motech-css-fallback">
+:root{
+  --bg:#000;--panel:#0b0b0b;--panel2:#111;--line:#1f1f1f;--line2:#2c2c2c;
+  --ink:#fff;--soft:#d4d4d4;--mute:#a1a1a1;
+  --orange:#ff8a00;--red:#e4243a;--wa:#25d366;
+  --grad:linear-gradient(90deg,var(--orange),var(--red));
+  --r:16px;--max:1180px;color-scheme:dark;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.65 "Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{line-height:1.08;letter-spacing:-.035em;font-weight:800}
+h1{font-size:clamp(38px,5vw,64px);letter-spacing:-.045em}
+h2{font-size:clamp(28px,3.6vw,42px);margin-bottom:14px}
+h3{font-size:19px;letter-spacing:-.02em;line-height:1.25}
+p{color:var(--mute)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+section{padding:96px 0}
+.lead{font-size:clamp(17px,1.8vw,20px);color:var(--soft);max-width:600px;line-height:1.6}
+.head{max-width:660px;margin-bottom:48px}
+.head.row{max-width:none;display:flex;justify-content:space-between;align-items:flex-end;gap:32px}
+.head.row>div{max-width:660px}
+.g{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+:focus-visible{outline:3px solid #fff;outline-offset:3px;border-radius:6px}
+[hidden]{display:none!important}
+
+/* buttons + links */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 28px;border-radius:999px;font:800 16px/1 "Plus Jakarta Sans",system-ui,sans-serif;text-decoration:none;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn svg{width:22px;height:22px;flex:none}
+.btn.primary{background:#fff;color:#000}
+.btn.ghost{background:transparent;color:#fff;box-shadow:inset 0 0 0 1.5px #3a3a3a}
+.btn.ghost:hover{box-shadow:inset 0 0 0 1.5px #fff}
+.btn.wa{background:var(--wa);color:#04210f;box-shadow:0 10px 34px rgba(37,211,102,.25)}
+.btn.sm{padding:11px 20px;font-size:14px}
+.link{font-weight:600;font-size:15px;color:#fff;text-decoration:underline;text-underline-offset:5px;text-decoration-color:#555;transition:text-decoration-color .15s}
+.link:hover{text-decoration-color:var(--orange)}
+
+/* promo bar */
+.promo{background:var(--grad);color:#fff;font-weight:600;font-size:14px;text-align:center;padding:9px 16px}
+.promo a{text-decoration:underline;text-underline-offset:3px;font-weight:800}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:40;background:rgba(0,0,0,.85);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid #161616}
+.nav .wrap{display:flex;align-items:center;gap:32px;height:72px}
+.nav .logo img{height:46px;width:auto}
+.nav ul{display:flex;gap:6px;list-style:none;padding:0;margin:0 auto 0 8px}
+.nav ul a{display:block;padding:9px 14px;border-radius:999px;text-decoration:none;font-size:15px;font-weight:500;color:#bdbdbd;transition:color .15s,background .15s}
+.nav ul a:hover{color:#fff;background:#141414}
+.nav ul a[aria-current=page]{color:#fff;background:#1a1a1a}
+.nav ul a.bf{color:#fff}
+.nav ul a.bf:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--grad);margin-right:8px;vertical-align:1px}
+.menu{display:none;margin-left:auto;background:none;border:1.5px solid #333;color:#fff;border-radius:12px;width:46px;height:46px;cursor:pointer;font-size:20px}
+
+/* hero (home) */
+.hero{position:relative;padding:80px 0 104px;overflow:hidden;isolation:isolate}
+.hero:before{content:"";position:absolute;inset:0;z-index:-1;background:url(img/generated/hero-bg.svg) 78% 40%/cover no-repeat;opacity:.55;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 45%,#000 100%);mask-image:linear-gradient(90deg,transparent 0,#000 45%,#000 100%)}
+.hero:after{content:"";position:absolute;inset:auto 0 0 0;height:160px;z-index:-1;background:linear-gradient(transparent,#000)}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.hero h1{margin-bottom:24px}
+.hero .lead{margin-bottom:36px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.shots{position:relative;aspect-ratio:1/.9}
+.shots img{position:absolute;width:78%;filter:drop-shadow(0 26px 34px rgba(0,0,0,.6))}
+.shots .a{left:0;top:0;z-index:1}.shots .b{right:0;top:22%;z-index:2}.shots .c{left:8%;bottom:0;z-index:3}
+
+/* inner page header */
+.phead{position:relative;padding:84px 0 72px;border-bottom:1px solid var(--line);overflow:hidden;isolation:isolate}
+.phead:before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(640px 300px at 88% -10%,rgba(228,36,58,.22),transparent 70%),radial-gradient(520px 260px at 10% 120%,rgba(255,138,0,.10),transparent 70%)}
+.phead .crumb{font-size:14px;color:var(--mute);margin-bottom:22px}
+.phead .crumb a{text-decoration:none;color:var(--soft)}
+.phead .crumb a:hover{color:#fff}
+.phead h1{margin-bottom:18px;max-width:880px}
+.phead .cta{margin-top:30px}
+
+/* clients */
+.clients{padding:38px 0 46px;border-bottom:1px solid var(--line)}
+.clients p{text-align:center;font-size:14px;margin-bottom:24px}
+.marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.track{display:flex;width:max-content;gap:68px;list-style:none;padding:0;animation:slide 60s linear infinite;align-items:center}
+.track img{height:46px;width:auto;opacity:.92}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* service cards (home) */
+.svc{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;list-style:none;padding:0}
+.svc li{background:var(--bg)}
+.svc a{display:block;height:100%;padding:34px 30px 38px;text-decoration:none;transition:background .2s}
+.svc a:hover{background:var(--panel2)}
+.svc h3{margin-bottom:10px}
+.svc p{font-size:15.5px}
+.svc .more{display:inline-block;margin-top:16px;font-size:14px;font-weight:700;color:#fff}
+.svc .more:after{content:" \2192";color:var(--orange)}
+
+/* services page rows */
+.rows{border-top:1px solid var(--line)}
+.srow{display:grid;grid-template-columns:1fr 1.2fr;gap:64px;padding:56px 0;border-bottom:1px solid var(--line)}
+.srow h2{font-size:clamp(26px,3vw,34px)}
+.srow .cta{margin-top:24px}
+.srow ul{list-style:none;padding:0;margin-top:18px;columns:2;column-gap:28px;font-size:15.5px;color:var(--soft)}
+.srow li{break-inside:avoid;padding:6px 0 6px 28px;position:relative}
+.srow li:before,.list li:before{content:"";position:absolute;left:0;top:14px;width:12px;height:7px;border-left:2.5px solid var(--orange);border-bottom:2.5px solid var(--orange);transform:rotate(-45deg)}
+
+/* black friday teaser + offer */
+.band{padding:0}
+.offer-box{border-radius:28px;padding:1.5px;background:var(--grad)}
+.offer-in{background:radial-gradient(900px 420px at 85% 0,rgba(228,36,58,.22),transparent 70%),radial-gradient(700px 360px at 0 100%,rgba(255,138,0,.12),transparent 70%),#050505;border-radius:27px;padding:64px 56px}
+.offer-in h2{font-size:clamp(30px,4.2vw,50px);max-width:760px}
+.facts{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:14px;margin:36px 0 26px;max-width:880px}
+.fact{border:1.5px dashed #3a3a3a;border-radius:16px;padding:16px 18px}
+.fact span{display:block;font-size:13px;color:var(--mute)}
+.fact b{display:block;font-size:22px;font-weight:800;letter-spacing:-.03em;margin-top:2px}
+.fact.price{border:2px solid var(--orange);background:rgba(255,138,0,.07)}
+.fact.price b{font-size:clamp(38px,5.4vw,56px);background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1}
+.cd{display:flex;gap:10px;margin-bottom:30px}
+.cd div{min-width:70px;padding:9px 8px;border-radius:12px;background:#141414;border:1px solid #2a2a2a;text-align:center}
+.cd b{display:block;font-size:26px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.2}
+.cd i{font-style:normal;font-size:12px;color:var(--mute)}
+.sub{margin-top:12px;font-size:14px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.split h2{font-size:clamp(26px,3vw,34px)}
+.list{list-style:none;padding:0;columns:2;column-gap:28px;font-size:15.5px;color:#e4e4e4;margin-top:14px}
+.list li{break-inside:avoid;padding:7px 0 7px 28px;position:relative}
+.cms p{margin-top:14px;max-width:460px;font-size:15.5px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;list-style:none;padding:0;counter-reset:s}
+.steps li{counter-increment:s;border:1.5px dashed #333;border-radius:18px;padding:26px}
+.steps li:before{content:counter(s);display:block;font-size:40px;font-weight:800;line-height:1;margin-bottom:12px;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.steps b{display:block;font-size:18px;margin-bottom:6px}
+.steps span{color:var(--mute);font-size:15.5px}
+.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 20px}
+.mini img{width:100%}
+.mini figcaption{font-size:14.5px;font-weight:600;margin-top:8px;color:#e6e6e6}
+.slots{text-align:center;border:1.5px dashed var(--red);border-radius:24px;padding:52px 20px}
+.slots .n{font-size:clamp(76px,14vw,120px);font-weight:800;line-height:1;letter-spacing:-.05em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.slots p{margin:10px auto 28px;max-width:440px;font-size:18px;color:#ddd}
+.fine{font-size:13px;max-width:660px}
+.teaser{display:flex;justify-content:space-between;gap:40px;align-items:center;flex-wrap:wrap}
+.teaser h2{font-size:clamp(28px,3.6vw,42px);max-width:640px}
+.teaser .right{display:flex;flex-direction:column;gap:18px;align-items:flex-start}
+.teaser .price{font-size:clamp(44px,6vw,64px);font-weight:800;letter-spacing:-.04em;line-height:1}
+
+/* work */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:30px}
+.tabs button{font:600 15px/1 "Plus Jakarta Sans",system-ui,sans-serif;color:#cfcfcf;background:transparent;border:1.5px solid var(--line2);padding:13px 20px;border-radius:999px;cursor:pointer;transition:border-color .15s,color .15s}
+.tabs button:hover{border-color:#666;color:#fff}
+.tabs button[aria-selected=true]{background:#fff;color:#000;border-color:#fff}
+.panel-head{display:flex;justify-content:space-between;gap:24px;align-items:center;margin-bottom:28px}
+.panel-head p{max-width:580px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 24px}
+.card .thumb{display:block;width:100%;padding:0;border:1px solid var(--line);background:var(--panel);border-radius:14px;overflow:hidden;aspect-ratio:var(--ar,3/2);cursor:pointer;position:relative;transition:border-color .2s}
+.card .thumb:hover{border-color:#555}
+.card .thumb img{width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .4s}
+.card .thumb:hover img{transform:scale(1.04)}
+.card figcaption{margin-top:12px}
+.card figcaption b{display:block;font-size:16.5px}
+.card figcaption span{display:block;font-size:14px;color:var(--mute)}
+.card.gone{display:none}
+
+/* projects */
+.projects{list-style:none;padding:0;border-top:1px solid var(--line)}
+.projects li{display:flex;justify-content:space-between;gap:40px;align-items:center;padding:30px 0;border-bottom:1px solid var(--line)}
+.projects h3{margin-bottom:8px;font-size:21px}
+.projects p{max-width:680px;font-size:15.5px}
+
+/* testimonials */
+.quotes{columns:3;column-gap:24px}
+.quote{break-inside:avoid;margin-bottom:24px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:30px}
+.quote blockquote{font-size:16px;color:#e6e6e6;line-height:1.7;margin-bottom:22px}
+.quote figcaption b{display:block;font-size:15px}
+.quote figcaption span{font-size:14px;color:var(--mute)}
+.quotes.three{columns:3}
+
+/* about */
+.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:start}
+.about img{border-radius:22px;border:1px solid var(--line2);width:100%;max-width:440px;position:sticky;top:110px}
+.role{color:var(--orange);font-weight:600;margin:6px 0 24px}
+.about p{color:var(--soft)}.about p+p{margin-top:16px}
+.social{display:flex;gap:24px;flex-wrap:wrap;margin-top:30px}
+.facts-list{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;margin-top:72px}
+.facts-list div{background:var(--bg);padding:28px}
+.facts-list b{display:block;font-size:18px;margin-bottom:6px}
+.facts-list span{font-size:15px;color:var(--mute)}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:64px;align-items:start}
+.form{display:grid;gap:18px}
+.form label{display:grid;gap:8px;font-size:14px;font-weight:600;color:var(--soft)}
+.form input,.form select,.form textarea{font:400 16px/1.4 "Plus Jakarta Sans",system-ui,sans-serif;color:#fff;background:var(--panel2);border:1.5px solid var(--line2);border-radius:12px;padding:14px 16px;width:100%}
+.form textarea{min-height:150px;resize:vertical}
+.form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:var(--orange)}
+.form small{font-size:13px;color:var(--mute)}
+.info{display:grid;gap:14px}
+.info a.tile,.info .tile{display:block;border:1px solid var(--line);background:var(--panel);border-radius:var(--r);padding:22px 24px;text-decoration:none;transition:border-color .2s}
+.info a.tile:hover{border-color:#555}
+.tile span{display:block;font-size:13px;color:var(--mute)}
+.tile b{display:block;font-size:18px;margin-top:2px}
+
+/* cta band */
+.ctaband{border-top:1px solid var(--line);text-align:center;padding:96px 0;background:radial-gradient(700px 300px at 50% 120%,rgba(228,36,58,.18),transparent 70%)}
+.ctaband h2{font-size:clamp(30px,4.6vw,54px);max-width:760px;margin:0 auto 14px}
+.ctaband .lead{margin:0 auto 32px}
+.ctaband .cta{justify-content:center}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:64px 0 100px;font-size:14.5px;color:var(--mute)}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+.fgrid img{height:56px;width:auto;margin-bottom:16px}
+.fgrid p{max-width:320px;font-size:14.5px}
+.fgrid h4{font-size:14px;color:#fff;margin-bottom:14px;font-weight:700}
+.fgrid ul{list-style:none;padding:0;display:grid;gap:10px}
+.fgrid a{text-decoration:none;color:var(--mute)}.fgrid a:hover{color:#fff}
+.fbase{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13.5px}
+
+/* sticky offer bar + lightbox */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:50;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:rgba(0,0,0,.94);backdrop-filter:blur(8px);border-top:1px solid #222;display:flex;gap:16px;align-items:center;justify-content:center;transform:translateY(110%);transition:transform .3s}
+.bar.show{transform:none}
+.bar .btn{padding:13px 26px;font-size:16px;flex:1;max-width:440px}
+.bar span{font-size:14px;color:var(--mute);display:none}
+dialog{border:0;background:transparent;max-width:min(94vw,1100px);max-height:92vh;padding:0;color:#fff;overflow:visible}
+dialog::backdrop{background:rgba(0,0,0,.88)}
+dialog img{max-height:84vh;width:auto;margin:0 auto;border-radius:10px}
+dialog button{position:absolute;top:-8px;right:-8px;width:42px;height:42px;border-radius:50%;border:0;background:#fff;color:#000;font-size:22px;cursor:pointer}
+
+@media(min-width:720px){.bar span{display:block}}
+@media(max-width:1020px){
+  .hero .wrap,.about,.split,.contact-grid,.srow{grid-template-columns:1fr;gap:40px}
+  .shots{max-width:560px}
+  .svc{grid-template-columns:repeat(2,1fr)}
+  .gallery,.mini{grid-template-columns:repeat(2,1fr)}
+  .quotes,.quotes.three{columns:2}
+  .offer-in{padding:48px 28px}
+  .nav ul,.nav>.wrap>.btn{display:none}
+  .menu{display:block}
+  .nav.open ul{display:flex;flex-direction:column;position:absolute;left:0;right:0;top:72px;background:#000;border-bottom:1px solid #222;padding:14px 20px 22px;gap:4px;margin:0}
+  .nav.open ul a{padding:13px 14px;font-size:16px}
+  section{padding:68px 0}
+  .about img{position:static}
+  .fgrid{grid-template-columns:1fr 1fr}
+  .head.row{flex-direction:column;align-items:flex-start;gap:16px}
+}
+@media(max-width:640px){
+  .wrap{padding:0 22px}
+  .svc,.steps,.gallery,.facts-list{grid-template-columns:1fr}
+  .mini{grid-template-columns:1fr 1fr}
+  .quotes,.quotes.three{columns:1}
+  .facts{grid-template-columns:1fr 1fr}.fact.price{grid-column:1/-1}
+  .list,.srow ul{columns:1}
+  .panel-head,.projects li{flex-direction:column;align-items:flex-start;gap:14px}
+  .cd div{flex:1;min-width:0}
+  .hero{padding:52px 0 68px}
+  .phead{padding:56px 0 48px}
+  .hero .btn,.offer-in .btn,.slots .btn{width:100%}
+  .tabs{flex-wrap:nowrap;overflow-x:auto;margin-inline:-22px;padding-inline:22px;scrollbar-width:none}
+  .tabs button{white-space:nowrap}
+  .fgrid{grid-template-columns:1fr}
+  .teaser{flex-direction:column;align-items:flex-start}
+}
+@media(prefers-reduced-motion:reduce){.track{animation:none}.bar,.card .thumb img,.btn{transition:none}html{scroll-behavior:auto}}
+
+
+/* Professional polish: retain Motech's black, orange and red identity. */
+:root{--panel:#0d0d0f;--panel2:#141416;--line:#242427;--line2:#35353a;--max:1220px}
+body{background:radial-gradient(900px 520px at 88% -10%,rgba(228,36,58,.075),transparent 68%),#050505}
+::selection{background:rgba(255,138,0,.35);color:#fff}
+.wrap{width:100%}
+section{position:relative}
+.nav{background:rgba(5,5,5,.88);border-bottom-color:rgba(255,255,255,.09)}
+.nav .wrap{height:78px}
+.nav .logo img{height:48px;width:auto;max-width:190px;object-fit:contain}
+.nav ul a{font-size:14px;letter-spacing:.005em}
+.nav ul a[aria-current=page]{box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
+.btn{min-height:48px;letter-spacing:-.01em}
+.btn.primary{box-shadow:0 8px 28px rgba(255,255,255,.08)}
+.btn.primary:hover{box-shadow:0 12px 34px rgba(255,138,0,.18)}
+.btn.ghost{background:rgba(255,255,255,.025)}
+.hero{padding-top:96px;padding-bottom:108px}
+.hero:before{background:url(img/generated/hero-bg.svg) 70% 35%/cover no-repeat;opacity:.72;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28%,#000 100%);mask-image:linear-gradient(90deg,transparent 0,#000 28%,#000 100%)}
+.hero h1{max-width:740px;font-size:clamp(42px,5.2vw,72px);line-height:1.02}
+.hero .lead{max-width:590px}
+.shots{filter:drop-shadow(0 25px 55px rgba(0,0,0,.3))}
+.shots img{border:1px solid rgba(255,255,255,.18);border-radius:15px;background:#111;aspect-ratio:900/613;object-fit:cover}
+.clients{background:rgba(255,255,255,.018);border-color:rgba(255,255,255,.08)}
+.track{gap:48px}
+.track img{max-width:180px;object-fit:contain;filter:grayscale(.15)}
+.svc{gap:1px;border-color:#29292c;background:#29292c}
+.svc a{min-height:218px;padding:32px;position:relative}
+.svc a:after{content:"↗";position:absolute;right:24px;top:24px;color:var(--orange);font-size:20px;opacity:0;transform:translate(-4px,4px);transition:.2s}
+.svc a:hover:after{opacity:1;transform:none}
+.svc h3{font-size:20px;margin-bottom:13px}
+.gallery{gap:22px}
+.card{min-width:0;overflow:hidden;border:1px solid rgba(255,255,255,.1);border-radius:18px;background:linear-gradient(145deg,#121214,#090909);transition:transform .22s,border-color .22s,box-shadow .22s}
+.card:hover{transform:translateY(-4px);border-color:rgba(255,138,0,.45);box-shadow:0 18px 48px rgba(0,0,0,.25)}
+.card .thumb{display:block;overflow:hidden;background:#111;border-radius:0;position:relative}
+.card .thumb img{width:100%;height:100%;aspect-ratio:var(--ar,16/10);object-fit:cover;transition:transform .35s ease,filter .35s ease}
+.card:hover .thumb img{transform:scale(1.035);filter:saturate(1.08)}
+.card figcaption{padding:16px 18px 19px;display:grid;gap:4px}
+.card figcaption b{font-size:15px;line-height:1.4}
+.card figcaption span{color:var(--mute);font-size:13px}
+.gallery .card .thumb{aspect-ratio:var(--ar,16/10)}
+.phead{padding-top:96px;padding-bottom:82px}
+.phead h1{max-width:900px}
+.phead:before{background:radial-gradient(760px 380px at 90% 0,rgba(228,36,58,.18),transparent 70%),radial-gradient(600px 300px at 4% 100%,rgba(255,138,0,.1),transparent 70%)}
+.head{margin-bottom:38px}
+.head p{font-size:16px;max-width:600px}
+.srow{gap:72px}
+.srow h2{max-width:440px}
+.offer-box{box-shadow:0 30px 80px rgba(0,0,0,.25)}
+.offer-in{padding:68px 60px}
+.fact,.steps li{background:rgba(255,255,255,.018)}
+.about{gap:80px}
+.about img{object-fit:cover;background:#101010;box-shadow:0 24px 70px rgba(0,0,0,.24)}
+.quote{background:linear-gradient(145deg,#111113,#090909);border-color:rgba(255,255,255,.09)}
+.quote blockquote{font-size:15.5px}
+.contact-grid{gap:72px}
+.form input,.form select,.form textarea{transition:border-color .2s,box-shadow .2s;background:#101012}
+.form input:focus,.form select:focus,.form textarea:focus{box-shadow:0 0 0 3px rgba(255,138,0,.12)}
+.info a.tile,.info .tile{background:linear-gradient(145deg,#121214,#090909);border-color:rgba(255,255,255,.09)}
+footer{background:#050505}
+.fgrid img{max-width:210px;height:auto;max-height:58px;object-fit:contain;object-position:left center}
+.fgrid a{transition:color .18s}
+.fbase{border-color:rgba(255,255,255,.09)}
+:focus-visible{outline-color:var(--orange);outline-offset:4px}
+@media(max-width:1020px){
+ .nav .wrap{height:72px}
+ .hero{padding-top:68px}
+ .hero .wrap{gap:32px}
+ .shots{width:100%;margin:0 auto}
+ .nav.open ul{top:72px;background:rgba(5,5,5,.98);backdrop-filter:blur(16px);padding:18px 22px 24px}
+ .nav.open ul a{border-radius:10px}
+ .offer-in{padding:48px 30px}
+}
+@media(max-width:640px){
+ body{font-size:16px}
+ .wrap{padding-left:20px;padding-right:20px}
+ section{padding:60px 0}
+ .hero{padding:52px 0 58px}
+ .hero h1{font-size:clamp(39px,11vw,54px)}
+ .hero .wrap{gap:30px}
+ .shots{aspect-ratio:1.05}
+ .shots img{width:82%;border-radius:10px}
+ .phead{padding:54px 0 48px}
+ .nav .logo img{max-width:155px;height:42px}
+ .svc a{min-height:0;padding:26px 24px}
+ .gallery{gap:16px}
+ .card figcaption{padding:13px 14px 16px}
+ .offer-in{padding:34px 22px;border-radius:22px}
+ .offer-box{border-radius:23px}
+ .facts{gap:10px}
+ .fact{padding:13px}
+ .fact b{font-size:18px}
+ .cd{gap:7px}
+ .cd div{padding:8px 5px;border-radius:9px}
+ .cd b{font-size:22px}
+ .cta{width:100%}
+ .cta .btn{flex:1}
+ .fgrid{gap:30px}
+ .fbase{margin-top:32px}
+}
+@media(prefers-reduced-motion:reduce){.card,.card .thumb img,.svc a:after{transition:none}}
+
+</style>
+</head>
+<body>
+<div class="promo" data-offer>Black Friday: a complete business website for ₦250,000. 20 slots, ends 25 Nov. <a href="black-friday.html">See what&rsquo;s included</a></div>
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Motech Digital home"><img src="img/originals/logowhite.png" alt="Motech Digital" width="46" height="46"></a>
+    <ul id="menu"><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="work.html">Work</a></li><li data-offer><a href="black-friday.html" class="bf">Black Friday</a></li><li><a href="testimonials.html">Testimonials</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li></ul>
+    <a class="btn primary sm" href="contact.html">Get a quote</a>
+    <button class="menu" id="menubtn" aria-label="Menu" aria-expanded="false" aria-controls="menu">&#9776;</button>
+  </div>
+</header>
+<main>
+<section class="phead"><div class="wrap">
+  <p class="crumb"><a href="index.html">Home</a> / Contact</p>
+  <h1>Let&rsquo;s work together.</h1>
+  <p class="lead">Tell us about your project and we&rsquo;ll come back with a plan and a quote. We reply fast on WhatsApp.</p>
+</div></section>
+
+<section style="padding-top:56px"><div class="wrap"><div class="contact-grid">
+  <form class="form" id="quote">
+    <label>Your name<input name="name" id="name" required autocomplete="name"></label>
+    <label>Business or brand (optional)<input name="business" id="business" autocomplete="organization"></label>
+    <label>What do you need?<select name="service" id="service"><option>Website</option><option>Black Friday website offer</option><option>Branding and identity</option><option>UI/UX design</option><option>Social media design</option><option>Presentation or pitch deck</option><option>Data analytics</option><option>Something else</option></select></label>
+    <label>Tell us about your project<textarea name="message" id="message" required></textarea></label>
+    <button class="btn wa" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-2.6.7.7-2.5-.2-.3A8 8 0 0 1 12 4z"/><path d="M9 8c-.3.4-.6 1-.2 1.9.5 1.2 1.6 2.6 3 3.4 1 .6 1.8.8 2.4.5.5-.2.8-.7.9-1l-1.6-.8-.7.7c-1-.4-1.9-1.2-2.3-2.2l.7-.6L10 8z"/></svg>Send on WhatsApp</button>
+    <small>This opens WhatsApp with your message ready to send.</small>
+  </form>
+  <div class="info">
+    <a class="tile" href="https://wa.me/2348146369615" target="_blank" rel="noopener"><span>WhatsApp (Nigeria)</span><b>+234 814 6369615</b></a>
+    <a class="tile" href="https://wa.me/447769382796" target="_blank" rel="noopener"><span>WhatsApp (United Kingdom)</span><b>+44 7769 382796</b></a>
+    <a class="tile" href="mailto:toritsejumoju@gmail.com"><span>Email</span><b>toritsejumoju@gmail.com</b></a>
+    <div class="tile"><span>Follow us</span><p style="margin-top:6px"><a class="link" href="https://www.instagram.com/thatdigital_guy" target="_blank" rel="noopener">Instagram</a> &nbsp; <a class="link" href="https://www.linkedin.com/in/mojutoju" target="_blank" rel="noopener">LinkedIn</a> &nbsp; <a class="link" href="https://www.behance.net/mojutojusamson" target="_blank" rel="noopener">Behance</a></p></div>
+  </div>
+</div></div></section>
+<script>(function(){var q=new URLSearchParams(location.search).get('service');if(!q)return;var s=document.getElementById('service');for(var i=0;i<s.options.length;i++){if(s.options[i].text===q||s.options[i].text.indexOf(q.split(' ')[0])===0){s.selectedIndex=i;break}}})();</script>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <img src="img/originals/logowhite.png" alt="Motech Digital" width="56" height="56">
+        <p>A creative agency for websites, branding, UI/UX, social media design and pitch decks. Based in the United Kingdom, working worldwide.</p>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="services.html">Services</a></li><li><a href="work.html">Work</a></li><li><a href="data-analytics.html">Data analytics</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Get in touch</h4><ul>
+        <li><a href="https://wa.me/2348146369615" target="_blank" rel="noopener">+234 814 6369615</a></li>
+        <li><a href="https://wa.me/447769382796" target="_blank" rel="noopener">+44 7769 382796</a></li>
+        <li><a href="mailto:toritsejumoju@gmail.com">toritsejumoju@gmail.com</a></li></ul></div>
+      <div><h4>Follow</h4><ul>
+        <li><a href="https://www.instagram.com/thatdigital_guy" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/mojutoju" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.behance.net/mojutojusamson" target="_blank" rel="noopener">Behance</a></li>
+        <li><a href="https://youtube.com/@tmcreatives" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="https://www.github.com/mojutoju" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://web.facebook.com/tojumoju" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="https://www.twitter.com/itss_toju" target="_blank" rel="noopener">Twitter</a></li></ul></div>
+    </div>
+    <div class="fbase"><span>&copy; 2026 Motech Digital. Website designed by Toritseju Samson Moju.</span><span>Lagos &middot; London</span></div>
+  </div>
+</footer>
+<script src="js/site.js"></script>
+</body>
+</html>
