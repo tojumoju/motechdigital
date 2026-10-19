@@ -378,6 +378,31 @@ footer{background:#050505}
 @media(prefers-reduced-motion:reduce){.card,.card .thumb img,.svc a:after{transition:none}}
 
 </style>
+
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2345738562906571');
+fbq('track', 'PageView');
+
+// Fire a Lead event when someone taps any WhatsApp link
+document.addEventListener('click', function (e) {
+  var a = e.target.closest('a[href*="wa.me"]');
+  if (a && window.fbq) { fbq('track', 'Lead'); }
+});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2345738562906571&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel Code -->
+
+  
 </head>
 <body>
 <div class="promo" data-offer>Black Friday: a complete business website for ₦250,000. 20 slots, ends 25 Nov. <a href="black-friday.html">See what&rsquo;s included</a></div>
